@@ -29,15 +29,6 @@ HEADERS = {
 }
 
 
-def is_developer_schedule(schedule):
-    return schedule['name'].startswith('Developer')
-
-
-def is_sysadmin_schedule(schedule):
-    """Only consider Tier 1 sysadmins. Tiers 2 and 3 don't change."""
-    return schedule['name'].startswith('Sysadmin Tier 1')
-
-
 def is_schedule_relevant(schedule):
     """Tests whether a notification should be sent for `schedule`."""
     for applicable_schedule in SCHEDULES:
