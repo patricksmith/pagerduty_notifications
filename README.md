@@ -1,7 +1,7 @@
 pagerduty_notifications
 =======================
 
-A script to send email to individuals about to go on PagerDuty rotation. Uses the (PagerDuty API)[http://developer.pagerduty.com/] to find users that will be on call next Monday and send them an email.
+A script to send email to individuals about to go on PagerDuty rotation. Uses the [PagerDuty API](http://developer.pagerduty.com/) to find users that will be on call next Monday and send them an email.
 
 Why?
 ----
